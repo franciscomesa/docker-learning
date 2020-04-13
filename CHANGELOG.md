@@ -1,5 +1,25 @@
 # Changelog
 
+## v1.0.0 (2020-04-13)
+
+### Changes
+
+#### Breaking
+
+* Upgrade license ([44911c0](https://github.com/tpbtools/docker-learning/commit/44911c0))
+
+#### Build
+
+* Update Auto Release Log adding v1.0.0 info with JPL ([d075644](https://github.com/tpbtools/docker-learning/commit/d075644))
+
+#### Docs
+
+* Generate v0.8.2 changelog with JPL ([5a3e0d7](https://github.com/tpbtools/docker-learning/commit/5a3e0d7))
+
+### Authors
+
+* Pedro Amador
+
 ## v0.8.2 (2020-04-12)
 
 ### Changes
