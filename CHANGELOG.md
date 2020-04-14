@@ -1,5 +1,26 @@
 # Changelog
 
+## v1.1.0 (2020-04-14)
+
+### Changes
+
+#### Upgrade
+
+* Change kairops / teecke references with tpbtools ([4260288](https://github.com/tpbtools/docker-learning/commit/4260288))
+
+#### Build
+
+* Update Auto Release Log adding v1.1.0 info with JPL ([84d13b8](https://github.com/tpbtools/docker-learning/commit/84d13b8))
+
+#### Docs
+
+* Update contributing ([146f10f](https://github.com/tpbtools/docker-learning/commit/146f10f))
+* Generate v1.0.0 changelog with JPL ([3915ac6](https://github.com/tpbtools/docker-learning/commit/3915ac6))
+
+### Authors
+
+* Pedro Amador
+
 ## v1.0.0 (2020-04-13)
 
 ### Changes
