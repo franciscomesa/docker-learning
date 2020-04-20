@@ -2,5 +2,5 @@
 
 # @file devcontrol/global/startup.sh
 # @brief devcontrol startup script and functions
-echo "docker-learning Kairops (c) 2019"
+echo "docker-learning (c) 2019-2020 TIC para Bien"
 echo
