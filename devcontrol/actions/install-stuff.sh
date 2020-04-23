@@ -46,7 +46,7 @@ EOF
             # Pull the docker images
             docker pull docker:dind
             docker pull php:7.1-fpm
-            docker pull tpbtools/jenkins-dind:latest
+            docker pull ayudadigital/jenkins-dind:latest
             docker pull ruby:latest
             docker pull elgalu/selenium:latest
             docker pull nginx:latest
@@ -55,12 +55,12 @@ EOF
             docker pull mysql:5.7
             docker pull debian:jessie
             docker pull newtmitch/sonar-scanner:latest
-            docker pull tpbtools/duing:latest
+            docker pull ayudadigital/duing:latest
             docker pull sergioortegagomez/docker-ubuntu-cucumber:latest
             docker pull hello-world:latest
             # Clone the repositories by day
-            git clone https://github.com/tpbtools/docker-learning
-            git clone https://github.com/tpbtools/general-concepts
+            git clone https://github.com/ayudadigital/docker-learning
+            git clone https://github.com/ayudadigital/general-concepts
             cd "${baseDir}/day1" || exit 1
             git clone https://github.com/danielesiddi/docker-course
             cd "${baseDir}/day2" || exit 1
@@ -82,7 +82,7 @@ EOF
             git clone https://github.com/zalando/zalenium
             cd "${baseDir}/day6" || exit 1
             git clone https://github.com/sergioortegagomez/docker-ubuntu-cucumber
-            git clone https://github.com/tpbtools/docker-ubuntu-xrdp-mate-custom
+            git clone https://github.com/ayudadigital/docker-ubuntu-xrdp-mate-custom
             ;;
         *)
             showNotImplemtedMessage "$1" "${FUNCNAME[0]}"

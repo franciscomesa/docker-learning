@@ -119,18 +119,18 @@ Top goal:
 
 BDD with Docker
 
-Use the project [Duing](https://github.com/tpbtools/docker-ubuntu-xrdp-mate-custom/tree/master/duing) to dessign and execute a BDD test
+Use the project [Duing](https://github.com/ayudadigital/docker-ubuntu-xrdp-mate-custom/tree/master/duing) to dessign and execute a BDD test
 
 Demonstrate how we can use Docker to run a complete linux Desktop environment with all the tools needed to materialize complex tasks.
 
 Reference repositories:
 
-- TIC para Bien's GitHub - [Docker Ubuntu INstant Gherkin](https://github.com/tpbtools/docker-ubuntu-xrdp-mate-custom/tree/master/duing)
+- Ayuda Digital's GitHub - [Docker Ubuntu INstant Gherkin](https://github.com/ayudadigital/docker-ubuntu-xrdp-mate-custom/tree/master/duing)
 - Sergio Ortega Gomez's GitHub - [Docker Ubuntu 18.10 Mate Desktop](https://github.com/sergioortegagomez/docker-ubuntu-cucumber)
 
 ## Further reading
 
-- [General Concepts](https://github.com/tpbtools/general-concepts/blob/master/es/toc.md) about Software Development (Spanish)
+- [General Concepts](https://github.com/ayudadigital/general-concepts/blob/master/es/toc.md) about Software Development (Spanish)
 - [Play with Docker](https://training.play-with-docker.com)
 
 ## Stuff Intallation
@@ -143,7 +143,7 @@ Execute the command:
 devcontrol/actions/install-stuff.sh exec
 ```
 
-...or use `devcontrol install-stuff` if you have [Devcontrol](https://github.com/tpbtools/devcontrol) installed on your system) and wait for the script to finish.
+...or use `devcontrol install-stuff` if you have [Devcontrol](https://github.com/ayudadigital/devcontrol) installed on your system) and wait for the script to finish.
 
 ## BDD examples
 
@@ -159,7 +159,7 @@ To execute the tests:
               --shm-size 1g \
               -dit --restart unless-stopped \
               -v $(pwd):/opt/docker-learning \
-              tpbtools/duing
+              ayudadigital/duing
     ```
 
 2. Copy the `/opt/docker-learning/bdd-examples/test/` directory in `/opt/duingdemo/ci-scripts/test/`. This will add the examples to the `features` directory.
@@ -170,7 +170,7 @@ To execute the tests:
     '/opt/docker-learning/bdd-examples/test/cucumber/features/github_search.feature' -> '/opt/duingdemo/ci-scripts/test/cucumber/features/github_search.feature'
     ```
 
-3. Follow the instructions of the [Duing](https://github.com/tpbtools/docker-ubuntu-xrdp-mate-custom/tree/master/duing) project.
+3. Follow the instructions of the [Duing](https://github.com/ayudadigital/docker-ubuntu-xrdp-mate-custom/tree/master/duing) project.
 
     Take care that github can't be tested with PhantomJS, so the `rake poltergeist` command will end with an error.
 
