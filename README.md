@@ -6,17 +6,17 @@ Duration: Two weeks, three days per each week, 1 hour per day
 
 ## Week 1
 
-Learning docker
+Learning Docker
 
 ### Day 1
 
-Inception with docker basics
+Inception with Docker basics
 
 - Container execution and deatached execution
 - Images
   - Layers
-  - tags
-  - docker public registry
+  - Tags
+  - Docker public registry
 - Builds
   - Dockerfile
   - Build, commit, push
@@ -27,6 +27,7 @@ Inception with docker basics
 Reference repositories:
 
 - Daniele Siddi's GitHub - [Curso de introducción a Docker](https://github.com/danielesiddi/docker-course)
+- CMD vs ENTRYPOING in [Stackoverflow](https://stackoverflow.com/questions/21553353/what-is-the-difference-between-cmd-and-entrypoint-in-a-dockerfile)
 - Brian DeHamer - Dockerfile [ADD vs COPY](https://www.ctl.io/developers/blog/post/dockerfile-add-vs-copy/)
 
 ### Day 2
@@ -62,7 +63,7 @@ External resources:
 
 ## Week 2
 
-Using docker
+Using Docker
 
 ### Day 4
 
@@ -78,10 +79,12 @@ Choose one of the following options
 
 - Docker in Docker
   - Ubuntu DIND
-  - Official Docker in docker (official)
+  - Official Docker in Docker
 - Quality pieces with Docker
-  - Jenkins in docker
+  - Jenkins in Docker
   - Sonar with real live project
+  - Zalenium: Selenium Grid with steroids in Docker
+- Windows in Docker
 
 Reference repositories:
 
@@ -98,7 +101,7 @@ Reference repositories:
 
 #### Dockerize an application
 
-Put docker on the [Spring Boot Angular4 Heroes](https://github.com/gaoxinwen/spring-boot-angular4-heroes) sample application.
+Put Docker on the [Spring Boot Angular4 Heroes](https://github.com/gaoxinwen/spring-boot-angular4-heroes) sample application.
 
 Stages:
 
@@ -114,7 +117,7 @@ Tips:
 
 Top goal:
 
-- Try to split the application in two docker services: backend and frontend.
+- Try to split the application in two Docker services: backend and frontend.
 
 ### Day 6
 
@@ -145,7 +148,7 @@ Thanks to [Álvaro](https://github.com/aperaltacalvo) for this work.
 
 ## Stuff Intallation
 
-You can download the whole docker images and clone the whole referenced repositories with a script within the project.
+You can download the whole Docker images and clone the whole referenced repositories with a script within the project.
 
 Execute the command:
 
