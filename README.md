@@ -88,8 +88,9 @@ Reference repositories:
 - Jerôme Petazzoni - [Using Docker in Docker](https://jpetazzo.github.io/2015/09/03/do-not-use-docker-in-docker-for-ci/)
 - Red Panda CI's GitHub
   - [Ubuntu DIND](https://github.com/red-panda-ci/ubuntu-dind)
-  - [Jenkins DIND](https://github.com/red-panda-ci/jenkins-dind)
-  - [Jenkins Pipeline Library](https://github.com/red-panda-ci/jenkins-pipeline-library)
+- Ayuda Digital
+  - [Jenkins DIND](https://github.com/ayudadigital/jenkins-dind)
+  - [Jenkins Pipeline Library](https://github.com/ayudadigital/jenkins-pipeline-library)
 - Informática Parmadux's GitHub - [Odoo](https://github.com/informaticaph/PXGO_00064_2014_PHA)
 - Docker - [Docker in Docker](https://hub.docker.com/_/docker)
 - Zalando IT's GitHub - [Zalenium](https://github.com/zalando/zalenium)
@@ -117,7 +118,9 @@ Top goal:
 
 ### Day 6
 
-BDD with Docker
+Choose one of the following options
+
+#### BDD with Docker
 
 Use the project [Duing](https://github.com/ayudadigital/docker-ubuntu-xrdp-mate-custom/tree/master/duing) to dessign and execute a BDD test
 
@@ -128,10 +131,17 @@ Reference repositories:
 - Ayuda Digital's GitHub - [Docker Ubuntu INstant Gherkin](https://github.com/ayudadigital/docker-ubuntu-xrdp-mate-custom/tree/master/duing)
 - Sergio Ortega Gomez's GitHub - [Docker Ubuntu 18.10 Mate Desktop](https://github.com/sergioortegagomez/docker-ubuntu-cucumber)
 
+#### Kubernetes Inception
+
+Take a look at Kubernetes using local minikube and this [Docker Compose Example](https://github.com/aperaltacalvo/docker-compose-example) project.
+
+Thanks to [Álvaro](https://github.com/aperaltacalvo) for this work.
+
 ## Further reading
 
 - [General Concepts](https://github.com/ayudadigital/general-concepts/blob/master/es/toc.md) about Software Development (Spanish)
 - [Play with Docker](https://training.play-with-docker.com)
+- Learning Docker with [Katacoda](https://www.katacoda.com/courses/docker) courses
 
 ## Stuff Intallation
 
